@@ -13,10 +13,20 @@
     </style>
 
     <style name="myStyle" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="colorPrimary">#2c2c2c</item>
-        <item name="colorSecondary">#2e2e2e</item>
-        <item name="colorAccent">#2d2d2d</item>
+        <item name="colorPrimary">#FF00B6</item>
+        <item name="colorSecondary">#19FF00</item>
+        <item name="colorAccent">#FF00FB</item>
+        <item name="android:src">#2c2c2c</item>
     </style>
+
+    <style name="img" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:layout_gravity"> center_horizontal</item>
+        <item name="android:src">@color/black</item>
+        <item name="textAllCaps">true</item>
+        <item name="text"></item>
+    </style>
+
+
 
     <style name="Theme.MyApp" parent="Base.Theme.MyApp" />
 </resources>
